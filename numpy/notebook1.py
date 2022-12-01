@@ -11,3 +11,7 @@ print(array3d.shape)
 
 weights = np.array([1,2,3])
 print(weights.dtype)
+
+weights2 = np.array([1,2,3,5.5])
+print(weights2.dtype)
+  

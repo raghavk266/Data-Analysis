@@ -1,0 +1,15 @@
+import pandas as pd 
+df = pd.read_csv('./pandas/reader.csv')
+print(type(df))
+print(df.info())
+print(df.describe())
+print(df.columns)
+print(df.shape)
+#pandas format is sumilar to a dictionary of keys and lists
+print(df['name'][2])
+print(df.name)
+print(df.height)
+print(df[['name','height','weight']])
+print(df.loc[1])
+print(df.tail())
+print(df.head())

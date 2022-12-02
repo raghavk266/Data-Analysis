@@ -1,0 +1,11 @@
+import numpy as np
+print(np.ones((5,5)))
+print(np.zeros((5,5)))
+print(np.eye(3))
+print(np.random.rand(5,5))
+print(np.random.randn(5,5))
+print(np.arange(10,90,3).shape)
+print(np.arange(10,90,3).reshape(3,3,3))
+print((np.arange(10,90,3).reshape(3,3,-1))) 
+print(np.linspace(1,100,80))
+print(np.arange(1, 9, 1).reshape(2, 2, 2))

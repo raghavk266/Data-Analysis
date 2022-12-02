@@ -11,4 +11,4 @@ print(result)
 print(result.shape)
 concatenated_result = np.concatenate((arr,result.reshape(5,1)),axis = 1)
 print(concatenated_result)
- 
+#axis is the dimension along which the addition of the row should take place
